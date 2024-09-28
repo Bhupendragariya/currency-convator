@@ -14,8 +14,6 @@ function App() {
    const swap = () =>{
     setFrom(to)
     setTo(from)
-     to(from)
-     from(to)
     setConvertedAmount(amount)
     setAmount(convertedAmount)
    }
